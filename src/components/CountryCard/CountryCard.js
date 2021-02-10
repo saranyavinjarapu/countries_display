@@ -9,7 +9,7 @@ function CountryCard({ countries }) {
           return (
             <div className="col-md-3" key={country.alpha2Code}>
               <div className="card">
-                <h5 className="card-header text-white bg-dark text-center">
+                <h5 className="card-header text-white bg-info text-center">
                   {country.name}
                 </h5>
                 <div className="card-body row">
