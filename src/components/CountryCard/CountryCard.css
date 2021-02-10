@@ -1,0 +1,12 @@
+.country_image {
+  margin-bottom: 1rem;
+  padding: 0;
+  height: 100px;
+  max-height: 180px;
+  max-width: 120px;
+}
+.card {
+  margin-bottom: 2rem;
+  border-radius: 0;
+  height: 220px;
+}
