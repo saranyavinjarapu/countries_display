@@ -14,7 +14,11 @@ function CountryCard({ countries }) {
                 </h5>
                 <div className="card-body row">
                   <div className="col-md-6 text-center">
-                    <img className="country_image" src={country.flag} />
+                    <img
+                      className="country_image"
+                      src={country.flag}
+                      alt="country_flag_image"
+                    />
                   </div>
                   <div className="col-md-6 desc">
                     <p>

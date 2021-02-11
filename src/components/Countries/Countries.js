@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Countries.css";
 import CountryCard from "../CountryCard/CountryCard";
 
-const filterDefaults = { search: "" };
-
 function Countries() {
   const [allCountriesData, setAllCountriesData] = useState([]);
   const [filteredCountriesData, setFilteredCountriesData] = useState([]);
@@ -33,7 +31,7 @@ function Countries() {
 
   function deployCountriesList() {
     const search = filterWord;
-    if (search.length == 0) {
+    if (search.length === 0) {
       return allCountriesData;
     } else {
       return filteredCountriesData;

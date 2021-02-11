@@ -38,7 +38,7 @@ function LoginForm() {
 
   return (
     <form className="login_form">
-      <h3>Login using email</h3>
+      <h3>Login Using email</h3>
 
       <div className="form-group">
         <label>Email address</label>

@@ -9,7 +9,7 @@ function Header() {
           <h1 className="jumbotron-heading">WORLD COUNTRIES INFORMATION</h1>
           <p>
             {" "}
-            Please Login or Signup Using Email to see World Countries
+            Please Login or Signup Using Email to view World Countries
             Information
           </p>
         </section>
