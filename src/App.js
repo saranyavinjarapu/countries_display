@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import Header from "./components/Header/Header";
-import Nav from "./components/Navigation/Nav.jsx";
+import Navigation from "./components/Navigation/Navigation";
 import LoginForm from "./components/Forms/LoginForm";
 import SignupForm from "./components/Forms/SignupForm";
 import Countries from "./components/Countries/Countries";
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Router>
         <div>
-          <Nav />
+          <Navigation />
           <div className="main-container">
             <Switch>
               <Route exact path="/" component={LoginForm} />
